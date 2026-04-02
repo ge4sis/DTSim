@@ -1,4 +1,4 @@
-# 🇺🇸 DTSim — 트럼프 행동 예측 AI
+# DTSim — 트럼프 행동 예측 AI
 
 > **Donald Trump Simulation** — 트럼프 대통령의 발언 패턴을 분석하여 향후 정책 행동을 예측하는 RAG 기반 AI 시스템
 
