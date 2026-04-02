@@ -1,0 +1,42 @@
+# API 키 / 환경변수
+.env
+
+# ChromaDB (재구축 가능, 용량 큼)
+data/chroma_db/
+
+# 중간 산출물 (enriched_linked가 최종본이므로 중간 파일 제외)
+data/raw/briefings_*_enriched.json
+data/raw/briefings_*_linked.json
+data/raw/briefings_*_enriched_linked.json
+
+# 매칭 후보 CSV (용량 큼, 중간 결과물)
+data/processed/linked_candidates.csv
+data/processed/linked_candidates_reviewed.csv
+data/processed/linked_candidates_enriched.csv
+
+# 최종 검토 완료 CSV는 포함 (linked_candidates_enriched_reviewed.csv)
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# 임시 파일
+*.tmp
+*.bak
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Claude Code 로컬 설정
+.claude/
+
+# Streamlit
+.streamlit/secrets.toml
